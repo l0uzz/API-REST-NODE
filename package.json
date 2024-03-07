@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "src.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src.js",
+    "dev": "node --watch --no-warnings src.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "postgres": "^3.4.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
